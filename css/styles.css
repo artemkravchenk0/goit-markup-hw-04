@@ -379,6 +379,7 @@ fill: var(--accent-color);
   justify-content: flex-start;
   background-color: #2f303a;
   padding: 60px 0;
+  align-items: baseline;
 }
 .logo-ft {
   display: block;
@@ -434,8 +435,47 @@ fill: var(--accent-color);
 
 .part{
   display: flex;
+  align-items: baseline;
+  /* margin-right: 70px; */
+}
+.part2{
+margin-left: 70px;
 }
 
+
+.ftr-socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 16px;
+}
+
+.ftr-socials-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius:50%;
+  background-color:rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+
+
+
+.ftr-socials-link:hover,                    
+.ftr-socials-link:focus{
+  background-color: var(--accent-color);
+  
+}
+.ftr-socials-link:hover{
+  fill: #ffffff;
+}
+
+/* .thumb{
+  align-items: baseline;
+} */
 
 
 
